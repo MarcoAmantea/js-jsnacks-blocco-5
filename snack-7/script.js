@@ -26,3 +26,11 @@ const findStudent = students.find((curStudent) =>{
   return curStudent.id === 2
 })
 console.log(findStudent);
+
+//ALTRO METODO//
+
+//const findStu = students.forEach((curStu) =>{
+//  if(curStu.id === 2){
+//    console.log(curStu);
+//  }
+//})

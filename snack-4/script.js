@@ -8,7 +8,15 @@ const posts = [
 // Crea un nuovo array coi nomi di tutti gli autori
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
 
-const onlyAuthor = posts.map((curMaps) => {
-  return curMaps.author  
+const onlyAuthor = posts.map((curPosts) => {
+  return curPosts.author  
 })
 console.log(onlyAuthor);
+
+//ALTRO METODO//
+
+//let authors = []
+//posts.forEach((curAuthors) =>{
+//  authors.push(curAuthors.author)
+//})
+//console.log(authors);

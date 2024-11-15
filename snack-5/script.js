@@ -7,3 +7,15 @@ const evenNum = nums.filter((curNums) => {
     return (curNums % 2) === 0
 })
 console.log(evenNum);
+
+
+//ALTRO METODO//
+
+//let evenNums = []
+//nums.forEach((curNum) =>{
+//    if(curNum % 2 === 0){
+//        evenNums.push(curNum)
+//    }
+//})
+//console.log(evenNums);
+
